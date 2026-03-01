@@ -31,6 +31,7 @@ async function withErrorHandling<T>(fn: () => Promise<T>): Promise<T> {
 
 export class YuqueClient {
   private client: AxiosInstance;
+  private static readonly DEFAULT_TIMEOUT = 30000; // 30 秒超时
 
   constructor(token: string, baseURL = 'https://www.yuque.com/api/v2') {
     this.client = axios.create({
@@ -39,6 +40,7 @@ export class YuqueClient {
         'X-Auth-Token': token,
         'Content-Type': 'application/json',
       },
+      timeout: YuqueClient.DEFAULT_TIMEOUT,
     });
   }
 
