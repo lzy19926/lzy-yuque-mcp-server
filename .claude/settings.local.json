@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_yuque-personal_yuque__yuque_get_user",
+      "mcp__plugin_yuque-group_yuque__yuque_search",
+      "mcp__plugin_yuque-personal_yuque__yuque_list_groups",
+      "mcp__plugin_yuque-personal_yuque__yuque_get_repo",
+      "mcp__plugin_yuque-personal_yuque__yuque_list_docs",
+      "mcp__plugin_yuque-personal_yuque__yuque_create_doc",
+      "mcp__plugin_yuque-personal_yuque__yuque_list_repos"
+    ]
+  }
+}

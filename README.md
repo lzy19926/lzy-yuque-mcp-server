@@ -1,3 +1,8 @@
+
+# 说明
+该项目使用AI进行重构测试
+
+
 # Yuque MCP Server
 
 [![CI](https://github.com/yuque/yuque-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/yuque/yuque-mcp-server/actions/workflows/ci.yml)
@@ -257,3 +262,4 @@ npm run dev           # dev mode with hot reload
 ## License
 
 [MIT](./LICENSE)
+
