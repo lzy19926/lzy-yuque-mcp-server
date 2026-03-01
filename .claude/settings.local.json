@@ -7,7 +7,9 @@
       "mcp__plugin_yuque-personal_yuque__yuque_get_repo",
       "mcp__plugin_yuque-personal_yuque__yuque_list_docs",
       "mcp__plugin_yuque-personal_yuque__yuque_create_doc",
-      "mcp__plugin_yuque-personal_yuque__yuque_list_repos"
+      "mcp__plugin_yuque-personal_yuque__yuque_list_repos",
+      "Bash(git checkout:*)",
+      "Bash(git:*)"
     ]
   }
 }
